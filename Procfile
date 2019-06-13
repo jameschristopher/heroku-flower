@@ -1,1 +1,1 @@
-web: flower --port=$PORT --broker=$BROKER_URL
+web: REMAP_SIGTERM=SIGQUIT flower --port=$PORT --broker=$BROKER_URL
